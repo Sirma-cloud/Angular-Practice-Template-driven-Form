@@ -8,6 +8,9 @@ import { NgForm } from '@angular/forms';
 })
 export class AppComponent {
   title = 'template-driven-form-2';
+  defaultCountry='Kenya';
+  firstname :string | undefined;
+  lastname :string | undefined;
   @ViewChild('myForm') form: NgForm | undefined;
   
   onSubmit(){
