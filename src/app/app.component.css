@@ -38,3 +38,12 @@ input.ng-valid{
 small{
     color: red;
 }
+
+.submit{
+    text-align:center ;
+    color:green; 
+ }
+.content{
+    display: flex;
+    justify-content: center;
+}

@@ -11,9 +11,12 @@ export class AppComponent {
   defaultCountry='Kenya';
   firstname :string | undefined;
   lastname :string | undefined;
+  email : string | undefined ;
+  submitted: boolean=false;
   @ViewChild('myForm') form: NgForm | undefined;
   
   onSubmit(){
     console.log(this.form);
+    this.submitted= true;
   }
 }
